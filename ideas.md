@@ -48,3 +48,14 @@ All of this is cool. But start with something reasonable. That reasonable thing 
 
 
 I should be able to pull the price of what's leftover from some futures indexes. If users don't know where they came from, I can just use past results; otherwise I can also try pulling that data from other sources
+
+
+## TODO
+
+- [ ] Make the parser return either JSON or a JS object (see v0.0.1/csv_parser.py)
+- [ ] Identify a mapping technology (in meantime it'll just be a dropdown)
+- [ ] Create algorithm and presets for different mining companies
+- [ ] Create mining gameplay
+- [ ] Find historical data on sales prices of various metals (https://www.quandl.com/data/ODA/PIORECR_USD-Iron-Ore-Price looks like Quandl will have a lot of the data I want.)
+- [ ] Determine game mechanics around metal price. Pseudo-random? Historical where one day = 1 minute?
+- [ ] Determine if I'll implement different game mechanics for things like placer deposits, clay/gravel/sand, gemstones (see https://en.wikipedia.org/wiki/Placer_deposit)
